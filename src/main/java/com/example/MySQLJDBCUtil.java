@@ -14,7 +14,7 @@ public class MySQLJDBCUtil {
 
         Connection conn = null;
 
-        try (FileInputStream f = new FileInputStream("C:\\projects\\jdbcpoc\\src\\main\\resources\\db.properties")) {
+        try (FileInputStream f = new FileInputStream("src\\main\\resources\\db.properties")) {
 
             Properties pros = new Properties();
             pros.load(f);
